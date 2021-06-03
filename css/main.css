@@ -157,7 +157,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  font-size: 1.125em;
+  font-size: 1.12em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -201,16 +201,36 @@ hero-area {
   flex-flow: row wrap;
 }
 
-.hero-area h1 {
-  font-size: 3em;
+.hero-text {
+  font-size: 1.5em;
   font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
   margin: 0;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: #6b7a8f;
+}
+
+.hero-button {
+  font-size: 1.4em;
+  color: #fff;
+  background-color: #f7882f;
+  border: 1px solid #6b7a8f;
+  border-radius: 12px;
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
 }
 
 .welcome {
   background-color: #dcc7aa;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,10 +260,10 @@ hero-area {
   border-radius: 50%;
 }
 
-.services .content-wrapper .image-right {
-  display: flex;
-  justify-content: flex-start;
-  align-self: flex-start;
+.image-right {
+  display: inline-flexbox;
+  justify-content: flex-end;
+  align-self: flex-end;
 }
 
 .adult-evals {
