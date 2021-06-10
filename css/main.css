@@ -152,6 +152,10 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
+
+.site-logo {
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -353,7 +357,7 @@ footer .contact-info {
 
 .assessment-icons {
   text-align: center;
-  margin-bottom: none;
+  margin: -50px;
 }
 /* ==========================================================================
    Helper classes
